@@ -13,6 +13,9 @@ order_bp = Blueprint('order_bp',__name__,url_prefix='/order')
 def create_order():
     car_id = request.args.get("car_id")
     print(car_id)
+    print(car_id)
+    print(car_id)
+    print(car_id)
     if not car_id:
         return jsonify(errno=RET.PARAMERR, errmsg="參數錯誤")
 
