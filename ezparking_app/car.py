@@ -27,7 +27,7 @@ def create_car():
         car_name='aaa',
         car_license_plate = '888'
     )
-
+    print(123456)
     car = Car(data)
     db.session.add(car)
     db.session.commit()
